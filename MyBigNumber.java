@@ -1,8 +1,7 @@
 /**
- * Tác giả: Nguyễn Quốc Cường
+ * Tác giả: Nguyễn thiện chí
  * Desrciption.
  * Class MyBigNumber là lớp để tính tổng của 2 số s1 và s2.
- * Hàm sum trong Class MyBigNumber là hàm để thực hiện phép cộng 2 chuỗi số.
  */
  
 public class MyBigNumber {
