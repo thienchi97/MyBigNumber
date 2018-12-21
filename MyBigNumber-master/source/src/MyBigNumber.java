@@ -28,25 +28,34 @@ class MyBigNumber implements IStrCalculator {
      * @return chuỗi số thể hiện giá trị tổng của s1 và s2
      */
     @Override
-    public String sum(final String s1,final String s2) {       
+    public String sum(final String s1, final String s2) {       
         
-        // kiểm tra tính hợp lệ của tham số s1
-        for (char c: s1.toCharArray()) {
-            if (c - '0' < 0 || c - '0' > 9) {
-                throw new NumberFormatException("Ban nhap so sai roi");
+        // kiểm tra tính hợp lệ: return exception nếu có tham số rỗng
+        
+        try {
+            
+            // kiểm tra tính hợp lệ của tham số s1
+            for (char c: s1.toCharArray()) {
+                if (c - '0' < 0 || c - '0' > 9) {
+                    throw new NumberFormatException();
+                }
             }
+        
+            // kiểm tra tính hợp lệ của tham số s2
+            for (char c: s2.toCharArray()) {
+                if (c - '0' < 0 || c - '0' > 9) {
+                    throw new NumberFormatException();
+                }
+            }
+        } catch (Exception e) {
+            System.out.println("Ban nhap so sai roi");
+            return "";
         }
         
-        // kiểm tra tính hợp lệ của tham số s2
-        for (char c: s2.toCharArray()) {
-            if (c - '0' < 0 || c - '0' > 9) {
-                throw new NumberFormatException("Ban nhap so sai roi");
-            }
-        }
         
         // gán giá trị tham số vào 2 thuộc tính s1 s2
-        setS1(s1.equals("") ? "0" : s1);
-        setS2(s2.equals("") ? "0" : s2);
+        setS1(s1);
+        setS2(s2);
 
         // xóa các ký số '0' dư ở đầu chuỗi số s1
         while (getS1().startsWith("0") && getS1().length() > 1) {
@@ -153,3 +162,4 @@ class MyBigNumber implements IStrCalculator {
         this.s2 = new StringBuilder(s2);
     }
 }
+
