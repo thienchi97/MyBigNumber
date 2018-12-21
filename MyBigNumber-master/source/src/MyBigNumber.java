@@ -3,10 +3,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 /**
- * Tác giả: Nguyễn Thiện chí.
- * DesCription.
- * Class MyBigNumber là lớp chứa 2 thuộc tính là 2 chuỗi đại diện cho 2 số.
- * Hàm sum là hàm để thực hiện phép cộng 2 chuỗi số
+ *
+ * @author ThienChi
  */
 class MyBigNumber implements IStrCalculator {          
     private  StringBuilder s1;                               
