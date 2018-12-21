@@ -20,8 +20,11 @@ public class MyBigNumberTester {
         System.out.print("Nhap vao so B = ");
         s2 = reader.readLine();
         System.out.println("\t\t\t   ~ Bai giai ~");
-        String[] a = {s1,s2};
-        MyBigNumber.main(a);
+        MyBigNumber myBigNumber = new MyBigNumber();
+        String result = myBigNumber.sum(s1,s2);
+        if (!result.equals("")) {
+            System.out.println(myBigNumber.getS1() + " + " + myBigNumber.getS2() + " = " + result);
+        }
     }
 }
 
