@@ -14,12 +14,12 @@ public class MyBigNumberTester {
         BufferedReader reader; // Lớp đọc giá trị nhập vào
         reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("\t\t\t~ BAI TOAN CONG 2 SO ~");
-        System.out.print("Nhap vao so A = ");
+        System.out.println("\t\t\t~ Cong 2 so ~");
+        System.out.print("Nhap vao so a: ");
         s1 = reader.readLine();
-        System.out.print("Nhap vao so B = ");
+        System.out.print("Nhap vao so b: ");
         s2 = reader.readLine();
-        System.out.println("\t\t\t   ~ Bai giai ~");
+        System.out.println("Loi giai");
         MyBigNumber myBigNumber = new MyBigNumber();
         String result = myBigNumber.sum(s1,s2);
         if (!result.equals("")) {
