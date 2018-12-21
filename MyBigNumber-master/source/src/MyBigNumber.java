@@ -54,8 +54,8 @@ class MyBigNumber implements IStrCalculator {
         
         
         // gán giá trị tham số vào 2 thuộc tính s1 s2
-        setS1(s1);
-        setS2(s2);
+        setS1(s1.equals("") ? "0" : s1);
+        setS2(s2.equals("") ? "0" : s2);
 
         // xóa các ký số '0' dư ở đầu chuỗi số s1
         while (getS1().startsWith("0") && getS1().length() > 1) {
