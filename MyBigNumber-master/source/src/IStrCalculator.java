@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 
 /**
- * Tác giả: Nguyễn Thiện chí.
- * DesCription.
- * IStrCalculator chứa hàm tính tổng 2 chuỗi số và hàm xuất ra màn hình các bước tính.
+ *
+ * @author ThienChi
  */
 public interface IStrCalculator {
     
