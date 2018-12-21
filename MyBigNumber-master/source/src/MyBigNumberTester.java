@@ -2,9 +2,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * Tác giả: Nguyễn Thiện chí..
- * DesCription.
- * Class MyBigNumberTester là lớp thực hiện test lớp MyBigNumber trên giao diện console.
+ *
+ * @author ThienChi
  */
 
 public class MyBigNumberTester {
