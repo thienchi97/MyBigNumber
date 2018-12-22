@@ -3,8 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 /**
- *
- * @author ThienChi
+ * author ThienChi.
  */
 class MyBigNumber implements IStrCalculator {          
     private  StringBuilder s1;                               
