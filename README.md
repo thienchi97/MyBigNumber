@@ -23,8 +23,19 @@
 		12	Chuỗi 1 và chuỗi 2 dư ký số '0' ở đầu													Chuỗi kết quả đúng và không dư ký số '0'														Đã hoàn thành					
 		13	Chuỗi 1 thỏa điều kiện và chuỗi 2 rỗng													Kết quả đúng														Đã hoàn thành					
 		14	Chuỗi 1 rỗng và chuỗi 2 thỏa điều kiện													Kết quả đúng														Đã hoàn thành					
+		
 		15	Chuỗi 1 và chuỗi 2 thỏa điều kiện													Kết quả đúng														Đã hoàn thành					
-																																																							
+			
+		16	chuỗi 1 và chuỗi 2 null
+			Thông báo lỗi Exception in thread "main" 1										Đã hoàn thành	
+			
+		17	chuỗi 1 null và chuỗi 2 thỏa điều kiện
+			Thông báo lỗi Exception in thread "main" 1										Đã hoàn thành	
+			
+		18	chuỗi 1 thỏa điều kiện và chuỗi 2 null
+			Thông báo lỗi Exception in thread "main" 1										Đã hoàn thành	
+			
+		
 																																			
 3,	Hướng dẫn sử dụng phần mềm																																		
 																																			
