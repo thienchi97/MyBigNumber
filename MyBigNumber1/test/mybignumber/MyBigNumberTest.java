@@ -84,7 +84,7 @@ public class MyBigNumberTest implements IReceiver {
     public void testSum5() {
             System.out.println("sum :");
             String str1 = "21";
-            String str2 = "11";
+            String str2 = "";
             String expResult = "31";
             MyBigNumberTest test = new MyBigNumberTest();
             MyBigNumber mybignumber = new MyBigNumber(test);
